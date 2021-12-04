@@ -108,6 +108,7 @@
       <LanguageStandard_C>stdc17</LanguageStandard_C>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <ControlFlowGuard>Guard</ControlFlowGuard>
+      <Optimization>MinSpace</Optimization>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -117,7 +118,7 @@
       <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
       <PreventDllBinding>false</PreventDllBinding>
       <ForceSymbolReferences>%(ForceSymbolReferences)</ForceSymbolReferences>
-      <EntryPointSymbol>run</EntryPointSymbol>
+      <EntryPointSymbol>start</EntryPointSymbol>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
